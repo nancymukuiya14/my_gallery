@@ -10,7 +10,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
-import dj_database_url
+# import dj_database_url
 
 
 
@@ -49,8 +49,8 @@ DATABASES = {
 #        )
 #    }
 
-db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)
+# db_from_env = dj_database_url.config(conn_max_age=500)
+# DATABASES['default'].update(db_from_env)
 
 # ALLOWED_HOSTS = ('ALLOWED_HOSTS'())
 
@@ -65,7 +65,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'my_gallery',
-    'bootstrap3',
     
     
 ]
