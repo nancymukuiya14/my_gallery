@@ -42,12 +42,20 @@ Open the application on your browser 127.0.0.1:8000.
 
 ## known Bugs
 Thankfully i have no bugs.
+
+## Screenshots
+![alt text](screenshots/pic1.png)
+![alt text](screenshots/pic2.png)
+![alt text](screenshots/pic3.png)
+![alt text](screenshots/pic4.png)
+
 ## Contact Information.
 Incase you have any questions or you would want to work with me contact me via:
 * Twitter:@mukuiyakigotho
 * Instagram:@hey_its_nancy
 * Email:nancykigotho14@gmail.com
 * Telephone:0705814086 
+
 
 ## License
 MIT licence
