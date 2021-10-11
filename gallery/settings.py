@@ -10,8 +10,16 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
-# import dj_database_url
+import django_heroku
+import dj_database_url
+from decouple import config,Csv
 
+# cloudinary
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
+
+# import dj_database_url
 
 
 
@@ -22,6 +30,13 @@ SECRET_KEY = "TALIBAN"
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
+
+cloudinary.config(
+    cloud_name=config('CLOUDINARY_CLOUD_NAME'),
+    api_key=config('CLOUDINARY_API_KEY'),
+    api_secret=config('CLOUDINARY_API_SECRET'),
+    secure=True
+)
 
 
 
