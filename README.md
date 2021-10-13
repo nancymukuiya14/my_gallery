@@ -52,7 +52,6 @@ Thankfully i have no bugs.
 ## Contact Information.
 Incase you have any questions or you would want to work with me contact me via:
 * Twitter:@mukuiyakigotho
-* Instagram:@hey_its_nancy
 * Email:nancykigotho14@gmail.com
 
 
