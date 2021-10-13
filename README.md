@@ -1,7 +1,7 @@
 ## PERSONAL GALLERY
 ## Developed by:Nancy Kigotho
 ## Description
-* This is a Django application for personal gallery that allows a user to upload images for other to see and be able to to share by coping the image link.
+* This is a Django application for my personal gallery that allows a user to upload images for other to see and be able to to share by coping the image link.
 ## User Story
 * View different photos that interest them
 * Click a single image to expand it and view the details of that photo
@@ -31,7 +31,7 @@ Running the application
 python manage.py server 
 Testing the application
 python manage.py test 
-Open the application on your browser 127.0.0.1:8000.
+Open the application on your browser.
 
 ## Technology used
 * Python3.8
@@ -53,8 +53,5 @@ Thankfully i have no bugs.
 Incase you have any questions or you would want to work with me contact me via:
 * Twitter:@mukuiyakigotho
 * Email:nancykigotho14@gmail.com
-
-
-
 ## License
 MIT licence
